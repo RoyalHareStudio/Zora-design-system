@@ -3,7 +3,7 @@ import type { Meta, StoryObj } from '@storybook/react';
 import CIconButton from '../components/IconButton';
 
 const meta = {
-  title: 'Icon Button',
+  title: 'In Progress/Icon Button',
   component: CIconButton,
   parameters: {
     layout: 'centered',

@@ -3,7 +3,7 @@ import type { Meta, StoryObj } from '@storybook/react';
 import CSidePanel from '../components/SidePanel';
 
 const meta = {
-  title: 'Side Panel',
+  title: 'In Progress/Side Panel',
   component: CSidePanel,
   parameters: {
     layout: 'centered',
