@@ -1,29 +1,21 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import CButton from '../components/Button';
+import CIconButton from '../components/IconButton';
 
 const meta = {
-  title: 'Button',
-  component: CButton,
+  title: 'Icon Button',
+  component: CIconButton,
   parameters: {
     layout: 'centered',
   },
-} satisfies Meta<typeof CButton>;
+} satisfies Meta<typeof CIconButton>;
 
 export default meta;
 type Story = StoryObj<typeof meta>;
 
 export const primary: Story = {
   args: {
-    onClick: () => {},
     label: 'buttonPrimary',
-  },
-};
-
-export const secondary: Story = {
-  args: {
-    onClick: () => {},
-    label: 'buttonSecondary',
   },
 };
 
