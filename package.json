@@ -81,5 +81,8 @@
   "bugs": {
     "url": "https://github.com/RoyalHareStudio/Zora-design-system/issues"
   },
-  "homepage": "https://github.com/RoyalHareStudio/Zora-design-system#readme"
+  "homepage": "https://github.com/RoyalHareStudio/Zora-design-system#readme",
+  "publishConfig": {
+    "royalharestudio:registry": "https://npm.pkg.github.com"
+  }
 }
