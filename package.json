@@ -1,5 +1,5 @@
 {
-  "name": "zora-design-system",
+  "name": "@royalharestudio/zora-design-system",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -9,9 +9,8 @@
     "@testing-library/user-event": "^13.5.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-scripts": "5.0.1",
-    "typescript": "^5.7.3",
-    "web-vitals": "^2.1.4"
+    "react-scripts": "^3.0.1",
+    "typescript": "^4.8.4"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -44,19 +43,43 @@
   "devDependencies": {
     "@chromatic-com/storybook": "^3.2.4",
     "@playwright/test": "^1.50.1",
-    "@storybook/addon-essentials": "^8.5.6",
-    "@storybook/addon-interactions": "^8.5.6",
-    "@storybook/addon-onboarding": "^8.5.6",
-    "@storybook/blocks": "^8.5.6",
-    "@storybook/preset-create-react-app": "^8.5.6",
-    "@storybook/react": "^8.5.6",
-    "@storybook/react-webpack5": "^8.5.6",
-    "@storybook/test": "^8.5.6",
+    "@storybook/addon-essentials": "^8.5.8",
+    "@storybook/addon-interactions": "^8.5.8",
+    "@storybook/addon-onboarding": "^8.5.8",
+    "@storybook/blocks": "^8.5.8",
+    "@storybook/preset-create-react-app": "^4.1.0",
+    "@storybook/react": "^8.5.8",
+    "@storybook/react-webpack5": "^8.5.8",
+    "@storybook/test": "^8.5.8",
     "@types/node": "^22.13.4",
     "chromatic": "^11.25.2",
     "eslint-plugin-storybook": "^0.11.3",
     "prop-types": "^15.8.1",
-    "storybook": "^8.5.6",
+    "storybook": "^8.5.8",
     "webpack": "^5.98.0"
-  }
+  },
+  "description": "The Zora Design System focuses on reusable and accessible components for a web application (desktop any mobile)",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RoyalHareStudio/Zora-design-system.git"
+  },
+  "keywords": [
+    "design",
+    "system",
+    "web",
+    "accessibility",
+    "components",
+    "accessibility",
+    "wcag"
+  ],
+  "author": "Henry Le, developer of Royal Hare Studio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RoyalHareStudio/Zora-design-system/issues"
+  },
+  "homepage": "https://github.com/RoyalHareStudio/Zora-design-system#readme"
 }
