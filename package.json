@@ -1,6 +1,6 @@
 {
   "name": "@royalharestudio/zora-design-system",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "/build/index.js",
   "types": "./build/index.d.ts",
   "repository": {
@@ -16,7 +16,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "publish": "publish"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "browserslist": {
     "production": [
