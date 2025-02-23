@@ -16,7 +16,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "publish": "react-scripts publish"
+    "publish": "publish"
   },
   "browserslist": {
     "production": [
@@ -32,5 +32,14 @@
   },
   "devDependencies": {
     "typescript": "^5.7.3"
+  },
+  "author": "RoyalHareStudio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RoyalHareStudio/Zora-design-system/issues"
+  },
+  "homepage": "https://github.com/RoyalHareStudio/Zora-design-system#readme",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   }
 }
