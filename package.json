@@ -16,7 +16,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "publish": "publish"
+    "publish": "publish",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "browserslist": {
     "production": [
