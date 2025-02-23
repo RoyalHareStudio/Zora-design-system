@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/static/js/main.56467a10.js",
-    "index.html": "/index.html",
-    "main.56467a10.js.map": "/static/js/main.56467a10.js.map"
+    "main.js": "/RoyalHareStudio/Zora-design-system/static/js/main.56467a10.js",
+    "index.html": "/RoyalHareStudio/Zora-design-system/index.html",
+    "main.56467a10.js.map": "/RoyalHareStudio/Zora-design-system/static/js/main.56467a10.js.map"
   },
   "entrypoints": [
     "static/js/main.56467a10.js"
