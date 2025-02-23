@@ -1,7 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App.tsx';
-import CButton from './components/Button.tsx';
+import CButton from './components/CButton.tsx';
+import CNavBar from './components/CNavBar.tsx';
+import CSideBar from './components/CSideNav.tsx';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -10,4 +12,4 @@ root.render(
     </React.StrictMode>
 );
 
-export { CButton };
+export { CButton, CNavBar, CSideBar };
