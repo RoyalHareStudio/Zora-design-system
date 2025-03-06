@@ -1,14 +1,15 @@
 //Section Wrapper 
 
-import React from 'react'
+import React, { ReactNode } from 'react'
 
 interface WSectionInterface {
     sectionLabelledBy: string,
+    children: ReactNode,
 }
 
-const WSection = ({ sectionLabelledBy }: WSectionInterface) => {
+const WSection = ({ sectionLabelledBy, children }: WSectionInterface) => {
     return (
-        <section aria-labelledBy={sectionLabelledBy}>WSection</section>
+        <section aria-labelledBy={sectionLabelledBy}>{children}</section>
     )
 }
 
