@@ -1,17 +1,15 @@
 {
-  "name": "zora-design-system",
-  "version": "0.1.1",
+  "name": "inclusify-design-system",
+  "version": "0.1.0",
   "main": "index.tsx",
   "types": "./dist/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RoyalHareStudio/Zora-design-system.git"
+    "url": "git+https://github.com/RoyalHareStudio/Inclusify-design-system.git"
   },
   "dependencies": {
     "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "storybook": "^8.5.8",
-    "zora-design-system": "^0.1.1"
+    "react-dom": "^19.0.0"
   },
   "scripts": {
     "start": "webpack serve",
@@ -55,15 +53,19 @@
   "author": "RoyalHareStudio",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/RoyalHareStudio/Zora-design-system/issues"
+    "url": "https://github.com/RoyalHareStudio/Inclusify-design-system/issues"
   },
-  "homepage": "https://github.com/RoyalHareStudio/Zora-design-system#readme",
+  "homepage": "https://github.com/RoyalHareStudio/Inclusify-design-system",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
   "description": "Accessibility-first web design system",
   "keywords": [
     "accessibility",
-    "a11y"
+    "a11y",
+    "react",
+    "reactjs",
+    "typescript",
+    "design system"
   ]
 }
