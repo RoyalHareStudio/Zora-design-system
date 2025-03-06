@@ -3,13 +3,13 @@
 import React, { ReactNode } from 'react'
 
 export interface WSectionInterface {
-    sectionLabelledBy: string,
+    sectionLabelledById: string,
     children: ReactNode,
 }
 
-const WSection = ({ sectionLabelledBy, children }: WSectionInterface) => {
+const WSection = ({ sectionLabelledById, children }: WSectionInterface) => {
     return (
-        <section aria-labelledBy={sectionLabelledBy}>{children}</section>
+        <section aria-labelledBy={sectionLabelledById}>{children}</section>
     )
 }
 
