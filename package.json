@@ -1,6 +1,6 @@
 {
-  "name": "@royalharestudio/zora-design-system",
-  "version": "0.1.5",
+  "name": "zora-design-system",
+  "version": "0.1.0",
   "main": "/dist/index.js",
   "types": "./dist/index.d.ts",
   "repository": {
@@ -50,5 +50,10 @@
   "homepage": "https://github.com/RoyalHareStudio/Zora-design-system#readme",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
-  }
+  },
+  "description": "Accessibility-first web design system",
+  "keywords": [
+    "accessibility",
+    "a11y"
+  ]
 }
