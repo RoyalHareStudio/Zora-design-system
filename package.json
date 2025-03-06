@@ -1,7 +1,7 @@
 {
   "name": "zora-design-system",
-  "version": "0.1.0",
-  "main": "/dist/index.js",
+  "version": "0.1.1",
+  "main": "index.tsx",
   "types": "./dist/index.d.ts",
   "repository": {
     "type": "git",
@@ -13,6 +13,7 @@
     "storybook": "^8.5.8"
   },
   "scripts": {
+    "start": "webpage serve",
     "build": "webpack",
     "build-storybook": "storybook build",
     "storybook": "storybook dev -p 6006"
@@ -30,15 +31,21 @@
     ]
   },
   "devDependencies": {
+    "@babel/core": "^7.26.9",
     "@babel/preset-env": "^7.26.9",
     "@babel/preset-react": "^7.26.3",
+    "@babel/preset-typescript": "^7.26.0",
     "@playwright/test": "^1.50.1",
     "@types/node": "^22.13.9",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
     "babel-cli": "^6.26.0",
     "babel-loader": "^9.2.1",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
-    "typescript": "^5.7.3",
+    "html-webpack-plugin": "^5.6.3",
+    "ts-loader": "^9.5.2",
+    "typescript": "^5.8.2",
     "webpack": "^5.98.0",
     "webpack-cli": "^6.0.1",
     "webpack-node-externals": "^3.0.0"
