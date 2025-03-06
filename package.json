@@ -1,33 +1,38 @@
 {
   "name": "inclusify-design-system",
   "version": "0.1.0",
-  "main": "index.tsx",
-  "types": "./dist/index.d.ts",
+  "description": "Accessibility-first web design system",
+  "keywords": [
+    "accessibility",
+    "a11y",
+    "react",
+    "reactjs",
+    "typescript",
+    "design system"
+  ],
+  "homepage": "https://github.com/RoyalHareStudio/Inclusify-design-system",
+  "bugs": {
+    "url": "https://github.com/RoyalHareStudio/Inclusify-design-system/issues"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/RoyalHareStudio/Inclusify-design-system.git"
   },
-  "dependencies": {
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+  "license": "MIT",
+  "author": "RoyalHareStudio",
+  "type": "commonjs",
+  "main": "index.tsx",
+  "types": "./dist/index.d.ts",
+  "directories": {
+    "test": "tests"
   },
   "scripts": {
     "start": "webpack serve",
-    "build": "webpack",
-    "build-storybook": "storybook build",
-    "storybook": "storybook dev -p 6006"
+    "build": "webpack"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.26.9",
@@ -50,22 +55,19 @@
     "webpack-dev-server": "^5.2.0",
     "webpack-node-externals": "^3.0.0"
   },
-  "author": "RoyalHareStudio",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/RoyalHareStudio/Inclusify-design-system/issues"
-  },
-  "homepage": "https://github.com/RoyalHareStudio/Inclusify-design-system",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
-  "description": "Accessibility-first web design system",
-  "keywords": [
-    "accessibility",
-    "a11y",
-    "react",
-    "reactjs",
-    "typescript",
-    "design system"
-  ]
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
