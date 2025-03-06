@@ -1,6 +1,6 @@
 import React from 'react'
 
-interface WMainInterface { }
+export interface WMainInterface { }
 
 const WMain = () => {
     return (

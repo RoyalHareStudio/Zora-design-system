@@ -2,7 +2,7 @@
 
 import React, { ReactNode } from 'react'
 
-interface WSectionInterface {
+export interface WSectionInterface {
     sectionLabelledBy: string,
     children: ReactNode,
 }

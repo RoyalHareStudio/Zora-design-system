@@ -1,6 +1,6 @@
 import React from 'react'
 
-interface WHeaderInterface { }
+export interface WHeaderInterface { }
 
 const WHeader = () => {
     return (
