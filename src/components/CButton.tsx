@@ -1,8 +1,13 @@
 import React from 'react'
 
-const CButton = () => {
+export interface CButtonInterface{
+    buttonText: string,
+    onClick?: VoidFunction,
+}
+
+const CButton = ({buttonText, onClick = () => {}}: CButtonInterface) => {
     return (
-        <button onClick={() => { }}>Sample</button>
+        <button onClick={onClick}>{buttonText}</button>
     )
 }
 
