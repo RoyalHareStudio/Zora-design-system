@@ -1,7 +1,6 @@
 # Inclusify Design System
 
 ![Inclusify Design System](https://img.shields.io/npm/v/inclusify-design-system?style=flat-square)
-![License](https://img.shields.io/npm/l/inclusify-design-system?style=flat-square)
 <!-- ![Build Status](https://img.shields.io/github/actions/workflow/status/YOUR_GITHUB/inclusify-design-system/build.yml?branch=main) -->
 
 Inclusify Design System is a collection of accessible and reusable UI components designed to enhance web accessibility and inclusivity.
