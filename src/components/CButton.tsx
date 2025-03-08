@@ -2,12 +2,18 @@ import React from 'react'
 
 export interface CButtonInterface{
     buttonText: string,
+    isPrimary?: boolean,
+    backgroundColor?: string,
     onClick?: VoidFunction,
 }
 
-const CButton = ({buttonText, onClick = () => {}}: CButtonInterface) => {
+const CButton = ({buttonText, isPrimary = false, onClick = () => {}, backgroundColor}: CButtonInterface) => {
     return (
-        <button onClick={onClick}>{buttonText}</button>
+        <button 
+            onClick={onClick}
+            style={{ backgroundColor }}>
+                {buttonText}
+        </button>
     )
 }
 
